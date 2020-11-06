@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/un"
+        android:textSize="25sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:cursorVisible="false"
+        android:layout_toRightOf="@id/user_name"
+        android:layout_alignBottom="@id/user_name"/>
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pwd"
+        android:textSize="25sp"
+        android:layout_below="@id/user_name"
+        android:layout_alignLeft="@id/user_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        android:cursorVisible="false"
+        android:layout_toRightOf="@id/password"
+        android:layout_alignBottom="@id/password"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/password"
+        android:layout_marginTop="20dp">
+     <Button
+         android:id="@+id/btn_register"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/reg"
+         android:textSize="20sp"
+         android:layout_marginRight="30dp"/>
+
+     <Button
+         android:id="@+id/btn_login"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/log"
+         android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

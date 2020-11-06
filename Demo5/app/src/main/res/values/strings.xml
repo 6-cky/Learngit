@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Demo5</string>
+    <string name="pao">这并未改革彻底的社会里，一切单独的新花样，都不过一块招牌，实际上和先前并无两样。拿一匹小鸟关在笼中，或给站在竿子上，地位好象改变了，其实还只是一样的在给别人做玩意，一饮一啄，都听命于别人。俗语说:"受人一饭，听人使唤"，就是这。所以一</string>
+    <string name="un">username</string>
+    <string name="pwd">password</string>
+    <string name="reg">register</string>
+    <string name="log">login</string>
+</resources>
